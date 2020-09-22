@@ -118,7 +118,7 @@ public class factores_primos extends javax.swing.JFrame {
         {
           a /= i;                          //se divide el numero ingresado entre si mismo con el valor del iterador//
           factores[cont]=i;                // se guardan los valores de i en un arreglo//
-          value += factores[cont]+", ";    // se juntan los factores primos dentro del string y se agrega un separador//
+          value += factores[cont]+" ";    // se juntan los factores primos dentro del string y se agrega un separador//
            
           cont++;                          // se incrementa el contador//
           factor.setText("LOS FACTORES PRIMOS SON: "+value);// se muestra el resultado//
